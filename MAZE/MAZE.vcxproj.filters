@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\structure">
+      <UniqueIdentifier>{d1351041-2e88-462e-8628-f44eb1a0becf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\navigate">
+      <UniqueIdentifier>{8b2e1094-98c3-4361-9b89-9ee89b7d17be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\controlmaze">
+      <UniqueIdentifier>{39bbabb4-8b02-4c4e-a86f-bcf68c5c0e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\menu">
+      <UniqueIdentifier>{0fe48284-6659-4b90-a9a4-53ce7186c210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\menu\start">
+      <UniqueIdentifier>{0342f924-978e-427f-ac80-f053d882f3f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\print">
+      <UniqueIdentifier>{be491e1f-5119-4291-8296-ee57f3e2f78f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="maze.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="maze.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="space.h">
+      <Filter>头文件\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="SqStack.h">
+      <Filter>头文件\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>头文件\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>头文件\navigate</Filter>
+    </ClInclude>
+    <ClInclude Include="direction.h">
+      <Filter>头文件\navigate</Filter>
+    </ClInclude>
+    <ClInclude Include="navigate.h">
+      <Filter>头文件\navigate</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="controlmaze.h">
+      <Filter>头文件\controlmaze</Filter>
+    </ClInclude>
+    <ClInclude Include="createmaze.h">
+      <Filter>头文件\controlmaze</Filter>
+    </ClInclude>
+    <ClInclude Include="initmaze.h">
+      <Filter>头文件\controlmaze</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>头文件\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>头文件\navigate</Filter>
+    </ClInclude>
+    <ClInclude Include="start.h">
+      <Filter>头文件\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="adventure.h">
+      <Filter>头文件\menu\start</Filter>
+    </ClInclude>
+    <ClInclude Include="automation.h">
+      <Filter>头文件\menu\start</Filter>
+    </ClInclude>
+    <ClInclude Include="manual.h">
+      <Filter>头文件\menu\start</Filter>
+    </ClInclude>
+    <ClInclude Include="quit.h">
+      <Filter>头文件\menu\start</Filter>
+    </ClInclude>
+    <ClInclude Include="printframe.h">
+      <Filter>头文件\print</Filter>
+    </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>头文件\print</Filter>
+    </ClInclude>
+    <ClInclude Include="printmaze.h">
+      <Filter>头文件\print</Filter>
+    </ClInclude>
+    <ClInclude Include="printarray.h">
+      <Filter>头文件\print</Filter>
+    </ClInclude>
+    <ClInclude Include="recursion.h">
+      <Filter>头文件\navigate</Filter>
+    </ClInclude>
+    <ClInclude Include="automa.h">
+      <Filter>头文件\menu\start</Filter>
+    </ClInclude>
+    <ClInclude Include="printdirection.h">
+      <Filter>头文件\print</Filter>
+    </ClInclude>
+    <ClInclude Include="printspace.h">
+      <Filter>头文件\print</Filter>
+    </ClInclude>
+    <ClInclude Include="printminroute.h">
+      <Filter>头文件\print</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
